@@ -147,7 +147,7 @@ class StateManager {
         a.attr("href", url.toString())
         a.addClass("col")
         let img = $("<img>")
-        img.attr("src", `BattleForger/data/imgs/${file}`)
+        img.attr("src", `/BattleForger/data/imgs/${file}`)
         img.addClass("p-2")
         img.addClass("cardImage")
         a.append(img)
