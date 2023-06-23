@@ -9,6 +9,15 @@ class URLParam {
         this.lastURL = this.url.toString()
     }
 
+    /** @type {string} */
+    get path() {
+        return this.url.pathname
+    }
+    get pathStart() {
+        if (this.path.length == 0) { return '' }
+        return this.path.substring(0, this.path.length-1)
+    }
+
     /** @returns {number} */
     get deck() {
         return this.url.searchParams.get("d")
@@ -44,11 +53,23 @@ class URLParam {
         this.url.searchParams.set("c", value)
     }
     clearCard() { this.url.searchParams.delete("c") }
+    /** @returns {[number]} */
+    get battle() {
+        let val = this.url.searchParams.get("b")
+        if (val == null) { return null }
+        return val.split(",")
+    }
+    /** @param {[string]} value */
+    set battle(value) {
+        this.url.searchParams.set("b", value)
+    }
+    clearBattle() { this.url.searchParams.delete("b") }
 
     update() {
-        // if (this.url.toString() == this.lastURL.toString()) { return }
-        // this.lastURL = this.url.toString()
         window.location.href = this.url.toString()
+    }
+    replace() {
+        window.history.replaceState({}, "", this.url.toString())
     }
 }
 

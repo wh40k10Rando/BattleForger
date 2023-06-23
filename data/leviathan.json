@@ -1,9 +1,75 @@
 {
     "title": "Leviathan",
+    "setup": {
+        "draws": [
+            {
+                "subDeckId": 1,
+                "numberOfCards": 1
+            },
+            {
+                "subDeckId": 4,
+                "numberOfCards": 1
+            },
+            {
+                "subDeckId": 5,
+                "numberOfCards": 1
+            }
+        ],
+        "rules": [
+            {
+                "triggers": [
+                    {
+                        "type": "draw",
+                        "target": {
+                            "subDeckId": 4,
+                            "cardNumber": 12
+                        }
+                    }
+                ],
+                "apply": [
+                    {
+                        "type": "reroll",
+                        "amount": 2
+                    },
+                    {
+                        "type": "state",
+                        "value": "MoB"
+                    }
+                ]
+            },
+            {
+                "triggers": [
+                    {
+                        "type": "state",
+                        "state": "MoB"
+                    },
+                    {
+                        "type": "draw",
+                        "target": {
+                            "subDeckId": 4,
+                            "cardNumber": 1
+                        }
+                    }
+                ],
+                "apply": [
+                    {
+                        "type": "reroll",
+                        "amount": 2
+                    },
+                    {
+                        "type": "state",
+                        "value": "CR"
+                    }
+                ]
+            }
+        ]
+    },
     "decks": [
         {
             "id": 1,
             "isRules": false,
+            "row": 1,
+            "color": "blue",
             "title": "Deployments",
             "cards": [
                 {
@@ -31,6 +97,8 @@
         {
             "id": 2,
             "isRules": false,
+            "row": 3,
+            "color": "red",
             "title": "Gambits - Attacker",
             "cards": [
                 {
@@ -54,6 +122,8 @@
         {
             "id": 3,
             "isRules": false,
+            "row": 3,
+            "color": "green",
             "title": "Gambits - Defender",
             "cards": [
                 {
@@ -77,6 +147,8 @@
         {
             "id": 4,
             "isRules": false,
+            "row": 1,
+            "color": "blue",
             "title": "Mission Rules",
             "cards": [
                 {
@@ -132,6 +204,8 @@
         {
             "id": 5,
             "isRules": false,
+            "row": 1,
+            "color": "blue",
             "title": "Primary Missions",
             "cards": [
                 {
@@ -175,6 +249,8 @@
         {
             "id": 6,
             "isRules": false,
+            "row": 2,
+            "color": "red",
             "title": "Secondary Missions - Attacker",
             "cards": [
                 {
@@ -246,6 +322,8 @@
         {
             "id": 7,
             "isRules": false,
+            "row": 2,
+            "color": "green",
             "title": "Secondary Missions - Defender",
             "cards": [
                 {
@@ -317,6 +395,8 @@
         {
             "id": 8,
             "isRules": true,
+            "row": 4,
+            "color": "white",
             "title": "Rules",
             "cards": [
                 {

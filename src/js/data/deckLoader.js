@@ -36,27 +36,15 @@ class DeckLoader extends Loader {
         this.deck = await super.load(this.listDeck.file)
         return this
     }
-    /** 
-     * @param {Card} card
-     * @returns {JQuery<HTMLElement>}
-     */
-    loadImg(card) {
-        return (new ImageLoader(card)).img
-    }
-}
 
-class ImageLoader {
-    /** @type {Card} */
-    card
-    /** @type {JQuery<HTMLElement>} */
-    img
-
-    /** @param {Card} card */
-    constructor(card) {
-        this.card = card
-        this.img = $("<img>")
-        this.img.attr("src", `/data/imgs/${this.card.file}`)
-        this.img.addClass("cardImage")
+    get rows() {
+        let rowGet = (index) => { this.deck.decks.filter(sd => sd.row == index) }
+        return {
+            1: rowGet(1),
+            2: rowGet(2),
+            3: rowGet(3),
+            4: rowGet(4)
+        }
     }
 }
 

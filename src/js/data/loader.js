@@ -1,9 +1,13 @@
+import URLParam from "../urlParam.js"
+
 class Loader {
     /** @type {string} */
-    path = '/BattleForger/data/'
+    path = '/data/'
     /** @param {string} [path] */
     constructor(path) {
         if (path) { this.path = path }
+        let params = new URLParam()
+        this.path = `${params.pathStart}${this.path}`
     }
     /**
      * @param {string} file

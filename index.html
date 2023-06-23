@@ -25,20 +25,26 @@
 
     <div class="container-fluid p-2">
         <div class="row">
-            <div id="DeckButtons" class="btn-group" role="group" aria-label="Decks">
+            <div class="col" id="DeckButtons"></div>
+        </div>
+        <div class="row align-items-center pt-2">
+            <div class="col">
+                <h2 id="DeckName"></h2>
+            </div>
+            <div class="col text-end">
+                <button id="battleGenerator" type="button" class="visually-hidden btn btn-outline-info">Generate Battle</button>
             </div>
         </div>
-        <div class="row">
-            <h2 id="DeckName"></h2>
-        </div>
-        <div class="row">
-            <div id="SubDeckButtons" class="btn-group" role="group" aria-label="Sub Decks">
-            </div>
-        </div>
+        <div class="row pt-2" id="SubDeckButtons1"></div>
+        <div class="row pt-2" id="SubDeckButtons2"></div>
+        <div class="row pt-2" id="SubDeckButtons3"></div>
+        <div class="row pt-2" id="SubDeckButtons4"></div>
         <div id="OptionButtons" class="row visually-hidden pt-2">
-            <div class="btn-group" role="group" aria-label="Sub Decks">
-                <button type="button" class="btn btn-primary option" optionId="1">Show All</button>
-                <button type="button" class="btn btn-primary option" optionId="2">Random</button>
+            <div class="col">
+                <button type="button" class="btn btn-outline-info w-100 option" optionId="1">Show All</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-info w-100 option" optionId="2">Random</button>
             </div>
         </div>
         <div class="row">
