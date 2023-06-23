@@ -1,6 +1,6 @@
 class Loader {
     /** @type {string} */
-    path = '/data/'
+    path = '/BattleForger/data/'
     /** @param {string} [path] */
     constructor(path) {
         if (path) { this.path = path }
