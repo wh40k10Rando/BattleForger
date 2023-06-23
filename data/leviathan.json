@@ -1,0 +1,365 @@
+{
+    "title": "Leviathan",
+    "decks": [
+        {
+            "id": 1,
+            "isRules": false,
+            "title": "Deployments",
+            "cards": [
+                {
+                    "file": "01-01-Deployment.png",
+                    "number": 1
+                },
+                {
+                    "file": "01-02-Deployment.png",
+                    "number": 2
+                },
+                {
+                    "file": "01-03-Deployment.png",
+                    "number": 3
+                },
+                {
+                    "file": "01-04-Deployment.png",
+                    "number": 4
+                },
+                {
+                    "file": "01-05-Deployment.png",
+                    "number": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "isRules": false,
+            "title": "Gambits - Attacker",
+            "cards": [
+                {
+                    "file": "02-01-GambitAttacker.png",
+                    "number": 1
+                },
+                {
+                    "file": "02-02-GambitAttacker.png",
+                    "number": 2
+                },
+                {
+                    "file": "02-03-GambitAttacker.png",
+                    "number": 3
+                },
+                {
+                    "file": "02-04-GambitAttacker.png",
+                    "number": 4
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "isRules": false,
+            "title": "Gambits - Defender",
+            "cards": [
+                {
+                    "file": "03-01-GambitDefender.png",
+                    "number": 1
+                },
+                {
+                    "file": "03-02-GambitDefender.png",
+                    "number": 2
+                },
+                {
+                    "file": "03-03-GambitDefender.png",
+                    "number": 3
+                },
+                {
+                    "file": "03-04-GambitDefender.png",
+                    "number": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "isRules": false,
+            "title": "Mission Rules",
+            "cards": [
+                {
+                    "file": "04-01-MissionRule.png",
+                    "number": 1
+                },
+                {
+                    "file": "04-02-MissionRule.png",
+                    "number": 2
+                },
+                {
+                    "file": "04-03-MissionRule.png",
+                    "number": 3
+                },
+                {
+                    "file": "04-04-MissionRule.png",
+                    "number": 4
+                },
+                {
+                    "file": "04-05-MissionRule.png",
+                    "number": 5
+                },
+                {
+                    "file": "04-06-MissionRule.png",
+                    "number": 6
+                },
+                {
+                    "file": "04-07-MissionRule.png",
+                    "number": 7
+                },
+                {
+                    "file": "04-08-MissionRule.png",
+                    "number": 8
+                },
+                {
+                    "file": "04-09-MissionRule.png",
+                    "number": 9
+                },
+                {
+                    "file": "04-10-MissionRule.png",
+                    "number": 10
+                },
+                {
+                    "file": "04-11-MissionRule.png",
+                    "number": 11
+                },
+                {
+                    "file": "04-12-MissionRule.png",
+                    "number": 12
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "isRules": false,
+            "title": "Primary Missions",
+            "cards": [
+                {
+                    "file": "05-01-PrimaryMission.png",
+                    "number": 1
+                },
+                {
+                    "file": "05-02-PrimaryMission.png",
+                    "number": 2
+                },
+                {
+                    "file": "05-03-PrimaryMission.png",
+                    "number": 3
+                },
+                {
+                    "file": "05-04-PrimaryMission.png",
+                    "number": 4
+                },
+                {
+                    "file": "05-05-PrimaryMission.png",
+                    "number": 5
+                },
+                {
+                    "file": "05-06-PrimaryMission.png",
+                    "number": 6
+                },
+                {
+                    "file": "05-07-PrimaryMission.png",
+                    "number": 7
+                },
+                {
+                    "file": "05-08-PrimaryMission.png",
+                    "number": 8
+                },
+                {
+                    "file": "05-09-PrimaryMission.png",
+                    "number": 9
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "isRules": false,
+            "title": "Secondary Missions - Attacker",
+            "cards": [
+                {
+                    "file": "06-01-SecondaryMissionAttacker.png",
+                    "number": 1
+                },
+                {
+                    "file": "06-02-SecondaryMissionAttacker.png",
+                    "number": 2
+                },
+                {
+                    "file": "06-03-SecondaryMissionAttacker.png",
+                    "number": 3
+                },
+                {
+                    "file": "06-04-SecondaryMissionAttacker.png",
+                    "number": 4
+                },
+                {
+                    "file": "06-05-SecondaryMissionAttacker.png",
+                    "number": 5
+                },
+                {
+                    "file": "06-06-SecondaryMissionAttacker.png",
+                    "number": 6
+                },
+                {
+                    "file": "06-07-SecondaryMissionAttacker.png",
+                    "number": 7
+                },
+                {
+                    "file": "06-08-SecondaryMissionAttacker.png",
+                    "number": 8
+                },
+                {
+                    "file": "06-09-SecondaryMissionAttacker.png",
+                    "number": 9
+                },
+                {
+                    "file": "06-10-SecondaryMissionAttacker.png",
+                    "number": 10
+                },
+                {
+                    "file": "06-11-SecondaryMissionAttacker.png",
+                    "number": 11
+                },
+                {
+                    "file": "06-12-SecondaryMissionAttacker.png",
+                    "number": 12
+                },
+                {
+                    "file": "06-13-SecondaryMissionAttacker.png",
+                    "number": 13
+                },
+                {
+                    "file": "06-14-SecondaryMissionAttacker.png",
+                    "number": 14
+                },
+                {
+                    "file": "06-15-SecondaryMissionAttacker.png",
+                    "number": 15
+                },
+                {
+                    "file": "06-16-SecondaryMissionAttacker.png",
+                    "number": 16
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "isRules": false,
+            "title": "Secondary Missions - Defender",
+            "cards": [
+                {
+                    "file": "07-01-SecondaryMissionDefender.png",
+                    "number": 1
+                },
+                {
+                    "file": "07-02-SecondaryMissionDefender.png",
+                    "number": 2
+                },
+                {
+                    "file": "07-03-SecondaryMissionDefender.png",
+                    "number": 3
+                },
+                {
+                    "file": "07-04-SecondaryMissionDefender.png",
+                    "number": 4
+                },
+                {
+                    "file": "07-05-SecondaryMissionDefender.png",
+                    "number": 5
+                },
+                {
+                    "file": "07-06-SecondaryMissionDefender.png",
+                    "number": 6
+                },
+                {
+                    "file": "07-07-SecondaryMissionDefender.png",
+                    "number": 7
+                },
+                {
+                    "file": "07-08-SecondaryMissionDefender.png",
+                    "number": 8
+                },
+                {
+                    "file": "07-09-SecondaryMissionDefender.png",
+                    "number": 9
+                },
+                {
+                    "file": "07-10-SecondaryMissionDefender.png",
+                    "number": 10
+                },
+                {
+                    "file": "07-11-SecondaryMissionDefender.png",
+                    "number": 11
+                },
+                {
+                    "file": "07-12-SecondaryMissionDefender.png",
+                    "number": 12
+                },
+                {
+                    "file": "07-13-SecondaryMissionDefender.png",
+                    "number": 13
+                },
+                {
+                    "file": "07-14-SecondaryMissionDefender.png",
+                    "number": 14
+                },
+                {
+                    "file": "07-15-SecondaryMissionDefender.png",
+                    "number": 15
+                },
+                {
+                    "file": "07-16-SecondaryMissionDefender.png",
+                    "number": 16
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "isRules": true,
+            "title": "Rules",
+            "cards": [
+                {
+                    "file": "Rules01.png",
+                    "number": 1
+                },
+                {
+                    "file": "Rules02.png",
+                    "number": 2
+                },
+                {
+                    "file": "Rules03.png",
+                    "number": 3
+                },
+                {
+                    "file": "Rules04.png",
+                    "number": 4
+                },
+                {
+                    "file": "Rules05.png",
+                    "number": 5
+                },
+                {
+                    "file": "Rules06.png",
+                    "number": 6
+                },
+                {
+                    "file": "Rules07.png",
+                    "number": 7
+                },
+                {
+                    "file": "Rules08.png",
+                    "number": 8
+                },
+                {
+                    "file": "Rules09.png",
+                    "number": 9
+                },
+                {
+                    "file": "Rules10.png",
+                    "number": 10
+                }
+            ]
+        }
+    ]
+}
