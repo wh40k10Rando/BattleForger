@@ -46,6 +46,7 @@ class DeckHelper {
             let deck = this.getSubDeck(draw.subDeckId)
             for (let i = 0; i < draw.numberOfCards; i++) {
                 let card = this.randomCard(deck)
+                deck.cards = deck.cards.filter(c => c.number != card.number)
                 let rerolls = this.checkRules(deck, card, state)
                 state = rerolls.state
                 if (rerolls.rerolls == 0) {
@@ -54,7 +55,6 @@ class DeckHelper {
                     cardContainer.ids.push(card.number)
                 } else {
                     i -= rerolls.rerolls
-                    deck.cards = deck.cards.filter(c => c.number != card.number)
                 }
             }
         }
